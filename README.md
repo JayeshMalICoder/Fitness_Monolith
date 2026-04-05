@@ -1,6 +1,6 @@
 # 🏋️ Fitness Monolith
 
-A **Spring Boot REST API** for tracking user fitness activities with JWT authentication, role-based access control, and an AI-powered recommendation module.
+A **Spring Boot REST API** for tracking user fitness activities with JWT authentication, role-based access control, and an  recommendation module.
 
 ---
 
@@ -39,7 +39,7 @@ The system is designed using a **layered architecture** and follows best practic
 | Spring Security | — |
 | Spring Data JPA | — |
 | MySQL | — |
-| JJWT | 0.13.0 |
+| JWT | 0.13.0 |
 | Lombok | — |
 | Maven | — |
 | Docker | — |
@@ -50,8 +50,7 @@ The system is designed using a **layered architecture** and follows best practic
 
 - 🔐 JWT Authentication & Authorization  
 - 👤 User Registration & Login  
-- 🏃 Activity Tracking (with flexible JSON metadata)  
-- 🤖 AI-Based Recommendation System  
+- 🏃 Activity Tracking (with flexible JSON metadata)    
 - 🧱 Clean Layered Architecture (Controller → Service → Repository)  
 - 🐳 Docker Support (Deployment Ready)  
 
@@ -273,5 +272,3 @@ Client → Protected API
 
 This project is licensed under the **MIT License**.
 
-📜 License
-This project is licensed under the MIT License.
